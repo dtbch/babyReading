@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+	img {
+		position: fixed;
+		left:150px;
+		width: 1000px;
+		height: 550px;
+	}
+	.right {
+		position: fixed;
+    bottom:20px;
+		right:5%;
+    float:right;
+	}
+	.left {
+		position: fixed;
+    bottom:20px;
+		left:5%;
+    float:left;
+	}
+
+  audio {
+    position: relative;
+    left:5%;
+  }
+</style>
+</head>
+<body>
+
+<div data-role="page" style="background-color: rgb(255, 193, 37)" id="pagethree">
+  <div data-role="header">
+    <h2>My Book</h2>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <audio controls autoplay>
+      <source style="position: relative;left:5%;" src="audio/jade3.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+    <div>
+      <img style="position: fixed;left:5%;width: 90%;height: 75%;" src="img/jade3.jpeg">
+    </div>
+    <div>
+      <a class="left" style="position: fixed;bottom:3%;left:5%;float:left;" href="page2.html" data-transition="slidedown">Previous Page</a>
+      <a class="right" style="position: fixed;bottom:3%;right:5%;float:right;" href="page4.html" data-transition="slideup">Next Page</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

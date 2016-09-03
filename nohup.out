@@ -1,0 +1,29 @@
+ * Running on http://192.168.1.113:1234/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 135-193-966
+192.168.1.109 - - [03/Sep/2016 00:18:39] "GET / HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:42] "GET /jade/audio/jade1.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:42] "GET /jade/audio/jade1.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:44] "GET /jade/audio/jade2.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:44] "GET /jade/audio/jade2.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:46] "GET /jade/audio/jade3.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:46] "GET /jade/audio/jade3.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:53] "GET / HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:56] "GET /jade/page0.html HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:56] "GET /jade/img/jade0.jpeg HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:58] "GET /jade/page1.html HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:58] "GET /jade/img/jade1.jpeg HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:58] "GET /jade/audio/jade1.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:58] "GET /jade/audio/jade1.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:59] "GET /jade/page2.html HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:59] "GET /jade/img/jade2.jpeg HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:18:59] "GET /jade/audio/jade2.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:19:00] "GET /jade/audio/jade2.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:19:00] "GET /jade/page3.html HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:19:01] "GET /jade/img/jade3.jpeg HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:19:01] "GET /jade/audio/jade3.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:19:02] "GET /jade/audio/jade3.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:19:22] "GET /jade/audio/jade3.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:19:22] "GET /jade/audio/jade2.mp3 HTTP/1.1" 200 -
+192.168.1.109 - - [03/Sep/2016 00:19:22] "GET /jade/audio/jade1.mp3 HTTP/1.1" 200 -

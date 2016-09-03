@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+	img {
+		position: fixed;
+		left:150px;
+		width: 1000px;
+		height: 550px;
+	}
+	.right {
+		position: fixed;
+    bottom:20px;
+		right:5%;
+    float:right;
+	}
+	.left {
+		position: fixed;
+    bottom:20px;
+		left:5%;
+    float:left;
+	}
+
+  audio {
+    position: relative;
+    left:5%;
+  }
+</style>
+</head>
+<body>
+
+<div data-role="page" id="pagezero">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  	<div>
+    	<img style="width:1000px; height:600px;" src="jade/img/jade0.jpeg">
+    </div>
+    <div>
+    	<a class="right" href="#pageone" data-transition="flow" align="right">Next Page</a>
+    </div>
+  </div>
+</div>
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  </div>
+  <audio controls>
+    <source src="jade/audio/jade1.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <div data-role="main" class="ui-content">
+    <div>
+    	<img src="jade/img/jade1.jpeg">
+    </div>
+    <div>
+		  <a class="left" href="#pagezero" data-transition="flow">Previous Page</a>
+    	<a class="right" href="#pagetwo" data-transition="flow">Next Page</a>
+    </div>
+  </div>
+</div>
+
+<div data-role="page" id="pagetwo">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  </div>
+  <audio controls>
+    <source src="jade/audio/jade2.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <div data-role="main" class="ui-content">
+    <div>
+    	<img src="jade/img/jade2.jpeg">
+    </div>
+    <div>
+		  <a class="left" href="#pageone" data-transition="flow">Previous Page</a>
+    	<a class="right" href="#pagethree" data-transition="flow">Next Page</a>
+    </div>
+  </div>
+</div>
+
+<div data-role="page" id="pagethree">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  </div>
+  <audio controls>
+    <source src="jade/audio/jade3.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <div data-role="main" class="ui-content">
+    <div>
+    	<img src="jade/img/jade3.jpeg">
+    </div>
+    <div>
+		  <a class="left" href="#pagetwo" data-transition="flow">Previous Page</a>
+    	<a class="right" href="#pagefour" data-transition="flow">Next Page</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
